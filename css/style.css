@@ -1,0 +1,38 @@
+/*Основной шрифт и заголовки*/
+
+html,
+body {
+	font-family: "Cormorant", "Georgia", serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #5c5b5f;
+}
+
+.logo h1 {
+	font-family: "PT Sans Caption", "Arial", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #232227;
+	text-transform: uppercase;
+}
+
+.intro h2 {
+	font-family: "PT Sans Caption", "Arial", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	color: #232227;
+	text-transform: uppercase;
+}
+
+.projects h3,
+.about h2 {
+	font-family: "PT Sans Caption", "Arial", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #232227;
+	text-transform: uppercase;
+}
