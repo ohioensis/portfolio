@@ -2,11 +2,14 @@
 
 html,
 body {
+	margin: 0;
+	padding: 0;
 	font-family: "Cormorant", "Georgia", serif;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 24px;
 	color: #5c5b5f;
+	background: #e6bf9a url("../img/background.png") no-repeat top;
 }
 
 .logo h1 {
@@ -19,6 +22,8 @@ body {
 }
 
 .intro h2 {
+	margin: 0;
+	padding: 0;
 	font-family: "PT Sans Caption", "Arial", sans-serif;
 	font-size: 36px;
 	font-weight: 700;
@@ -35,4 +40,52 @@ body {
 	line-height: 24px;
 	color: #232227;
 	text-transform: uppercase;
+}
+
+/*Логотип и интро*/
+
+.container-1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 980px;
+	min-height: 484px;
+	margin: 150px auto;
+	margin-bottom: 0;
+	background: transparent url("../img/background-paper-1.png") no-repeat top;
+}
+
+.logo {
+	width: 820px;
+	margin: 50px 80px 35px 80px;
+}
+
+.container-1 img {
+	width: 410px;
+	height: 279px;
+	margin-left: 80px;
+}
+
+.intro {
+	width: 340px;
+	margin-right: 80px;
+}
+
+/*Проекты*/ /*ПРОДОЛЖИТЬ ОТСЮДА - ШИРИНА СЕКЦИЙ, РАСКЛАДКА БЛОКОВ*/
+
+.container-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 980px;
+	min-height: 469px;
+	margin: 0 auto;
+	background: transparent url("../img/background-paper-2.png") no-repeat top;
+	background-position-y: -1px;
+	background-position-x: 8px;
+}
+
+.container-2 section {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
 }
