@@ -12,6 +12,10 @@ body {
 	background: #e6bf9a url("../img/background.png") no-repeat top;
 }
 
+body {
+	padding-top: 50px;
+}
+
 .logo h1 {
 	font-family: "PT Sans Caption", "Arial", sans-serif;
 	font-size: 50px;
@@ -34,6 +38,8 @@ body {
 
 .projects h3,
 .about h2 {
+	margin: 0;
+	padding: 0;
 	font-family: "PT Sans Caption", "Arial", sans-serif;
 	font-size: 14px;
 	font-weight: 700;
@@ -44,15 +50,15 @@ body {
 
 /*Логотип и интро*/
 
-.container-1 {
+.container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 980px;
 	min-height: 484px;
-	margin: 150px auto;
-	margin-bottom: 0;
+	margin: 0 auto;
 	background: transparent url("../img/background-paper-1.png") no-repeat top;
+	background-position-y: ;
 }
 
 .logo {
@@ -60,7 +66,7 @@ body {
 	margin: 50px 80px 35px 80px;
 }
 
-.container-1 img {
+.container img {
 	width: 410px;
 	height: 279px;
 	margin-left: 80px;
@@ -71,21 +77,123 @@ body {
 	margin-right: 80px;
 }
 
-/*Проекты*/ /*ПРОДОЛЖИТЬ ОТСЮДА - ШИРИНА СЕКЦИЙ, РАСКЛАДКА БЛОКОВ*/
+/*Проекты*/
 
-.container-2 {
+.projects {
 	display: flex;
 	justify-content: space-between;
 	width: 980px;
 	min-height: 469px;
+	box-sizing: border-box;
 	margin: 0 auto;
+	padding: 50px 0;
+	padding-bottom: 0;
 	background: transparent url("../img/background-paper-2.png") no-repeat top;
 	background-position-y: -1px;
 	background-position-x: 8px;
 }
 
-.container-2 section {
-	display: flex;
-	justify-content: space-between;
+.project {
+	position: relative;
 	width: 400px;
 }
+
+.project-sedona {
+	padding-left: 280px;
+}
+
+.project-technomart {
+	padding-left: 240px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.project-sedona a:first-of-type {
+	position: absolute;
+	top: 0;
+	left: 80px;
+}
+
+.project-technomart a:first-of-type {
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+
+.project p {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 195px;
+}
+
+.project-link {
+	display: block;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/*Обо мне*/
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 980px;
+	min-height: 454px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: -1px;
+	padding-left: 95px;
+	padding-right: 80px;
+	background: transparent url("../img/background-paper-3.png") no-repeat top;
+	background-position-y: -1px;
+	background-position-x: 7px;
+}
+
+.about h2 {
+	width: inherit;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+.about ul {
+	margin: 0;
+	padding: 0;
+}
+
+.about ul:last-of-type {
+	list-style: none;
+}
+
+.skills {
+	width: 600px;
+}
+
+/*Футер*/ 
+
+.footer {
+	position: relative;
+	width: 980px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.footer .go-to-top {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.footer .copyright {
+	margin: 0;
+	margin-left: 80px;
+	padding: 0;
+}
+
+.copyright p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
