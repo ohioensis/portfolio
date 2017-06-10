@@ -394,16 +394,3 @@ body {
 .copyright a:active {
 	color: #9cd3e2;
 }
-
-/*Дополнительный абзац с кнопками*/
-
-.test {
-	display: flex;
-	flex-wrap: wrap;
-	width: 980px;
-	margin: 0 auto;
-}
-
-.test p {
-	width: 980px;
-}
